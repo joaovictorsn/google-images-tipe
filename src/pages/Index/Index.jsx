@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/Img/logo.svg.png";
-import styles from "./Index.module.css";
+import { Div, FormSearch } from "./IndexStyle";
+import styles from "./Index.module.scss"
 
 
 export function Index(){

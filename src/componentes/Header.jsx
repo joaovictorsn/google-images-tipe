@@ -1,20 +1,21 @@
 import React from "react";
-import logo from ".././assets/Img/logo.google.png";
-import styles from "./Header.module.css"
+import logo from ".././assets/Img/logo.svg.png";
+import styles from "./Header.module.scss"
 
 export function Header(){
     return(
-        <body>
-            <header>
+            <header id={styles.header}>
                 <div id={styles.headerContainer}>
-                    <img src={logo} alt="google-images" />
+                    <img src={logo} alt="google-images" id={styles.imgLogo}/>
 
-                    <input type="text" name="text" id="text" placeholder="Procurar imagens"/>
+                    <form action="" id={styles.formContainer}>
 
-                    <button>Enviar</button>
+                        <input type="text" name="text" id="text" placeholder="Procurar imagens"/>
+
+                        <button>Enviar</button>
+                    </form>
                 </div>
             </header>
-        </body>
         
     )
 }

@@ -1,0 +1,63 @@
+@import '../assets/Variables_Global/colors.scss';
+
+#headerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items:flex-start;
+    height: 8vh;
+    box-shadow: rgba(0,0,0,0.30) 0px 4px 4px;
+}
+
+#imgLogo{
+        height: 6.6vh;
+        align-self: center;
+}
+
+#formContainer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 1.4em;
+margin-left: 1.4em;
+align-self: center;
+input{
+    width: 45vw;
+    margin-bottom: 1.01em;
+    border-radius: 25px;
+    border: 1px solid $grey;
+    height: 4.2vh;
+    font-size: 1.15em;
+    padding: 0 1.7vw;
+    
+}
+
+input:hover{
+    box-shadow: rgba(0,0,0,0.25) 0px 3px 4px;
+}
+
+input:focus{
+    outline: 0;
+}
+
+button{
+    background-color: $backgroundcolor;
+    border: 0;
+    border-radius: 25px;
+    height: 3.0vh;
+    font-size: 1em;
+    padding: 0 1vw;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: .4vw;
+}
+
+button:hover{
+    background-color: rgb(255, 239, 239);
+    border: 1px solid #f0e7e7;
+    border-radius: 10px;
+}
+
+}

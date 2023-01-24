@@ -3,9 +3,14 @@ import { Header } from "../../componentes/Header";
 
 export function Search(){
     return(
-        <div>
+        <body>  
+        <header>
             <Header/>
-        </div>
+        </header>
+        <main>
+            
+        </main>
+        </body>
         
     )
 }
